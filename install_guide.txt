@@ -1,0 +1,67 @@
+=====================================
+Scientific Data Visualization App
+Installation Guide
+=====================================
+
+This guide will help you set up and run the Scientific Data Visualization App on your computer.
+
+SYSTEM REQUIREMENTS
+------------------
+- Python 3.7 or higher
+- At least 2GB RAM
+- 500MB free disk space
+
+INSTALLATION STEPS
+------------------
+
+1. INSTALL PYTHON (if not already installed)
+   
+   Visit https://www.python.org/downloads/ and download the latest version for your operating system.
+   During installation, make sure to check the box that says "Add Python to PATH".
+
+2. EXTRACT THE APPLICATION FILES
+   
+   Extract all files from the ZIP archive to a folder of your choice.
+
+3. INSTALL REQUIRED DEPENDENCIES
+   
+   Open a terminal/command prompt and navigate to the folder where you extracted the files.
+   Run the following command to install the required libraries:
+   
+   ```
+   pip install streamlit numpy pandas matplotlib scipy
+   ```
+
+4. RUN THE APPLICATION
+   
+   In the same terminal/command prompt, run:
+   
+   ```
+   streamlit run app.py
+   ```
+   
+   This will start the application and open it in your default web browser.
+
+TROUBLESHOOTING
+---------------
+
+If you encounter any issues:
+
+1. Make sure you have the correct Python version installed
+2. Verify that all dependencies were installed successfully
+3. Check that you're running the command from the correct directory
+4. If you see "ModuleNotFoundError", run step 3 again to install missing dependencies
+
+For additional support, please refer to the documentation or contact the developer.
+
+GETTING STARTED
+--------------
+
+Once the application is running:
+
+1. Use the "Data Entry & Plotting" tab to input your data
+2. Try the "Function Drawing" feature to visualize mathematical functions
+3. Generate reproducible Python code in the "Generated Code" tab
+4. Download a copy of the application from the "Download App" tab for offline use
+
+Enjoy using the Scientific Data Visualization App!
